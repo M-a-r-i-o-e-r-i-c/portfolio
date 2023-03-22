@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eric Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#about"><h1>Eric Portfolio</h1></a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="./Assets/Eric.jpg" alt="Profile Picture" />
+      <p>
+        Hi, my name is Eric Ijeoma. I am a frontend developer with three years
+        of experience in creating engaging and user-friendly websites. I
+        specialize in HTML, CSS, JavaScript, and various frontend frameworks
+        such as React and Vue.js. I am always seeking to learn new technologies
+        and improve my skills to deliver the best possible product for my
+        clients.
+      </p>
+      <p>My skills include:</p>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Vue</li>
+        <li>Typescript</li>
+        <li>Git</li>
+      </ul>
+      <a href="./Assets/EricIjeomaResume.pdf" download>Download Resume</a>
+    </section>
+    <section id="work">
+      <h2>My Work</h2>
+      <div class="project">
+        <i class="fas fa-mobile-alt"></i>
+        <div class="project-info">
+          <h3>Phonie</h3>
+          <p>This app tells you the carrier of any Nigerian phone number.</p>
+          <a href="https://github.com/M-a-r-i-o-e-r-i-c/phonie"
+            >View Project Repo</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <i class="fas fa-calculator"></i>
+        <div class="project-info">
+          <h3>Counter</h3>
+          <p>
+            A simple counter app that uses Vuex for state management.This app
+            was built with Vue.js
+          </p>
+          <a
+            href="https://github.com/M-a-r-i-o-e-r-i-c/Altschool-third-semester-exam"
+            >View Project Repo</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <i class="far fa-money-bill-alt"></i>
+        <div class="project-info">
+          <h3>Financial Logger</h3>
+          <p>
+            This app helps you keep track of your payment and invoice details.
+            This app was built with Typescript.
+          </p>
+          <a href="https://github.com/M-a-r-i-o-e-r-i-c/Financial-Logger"
+            >View Project Repo</a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/xbjeaord" method="post">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="enter your name"
+        />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="enter your email"
+        />
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="write a message"
+        ></textarea>
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2023 Eric Ijeoma. All Rights Reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
